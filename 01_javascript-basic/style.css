@@ -1,0 +1,112 @@
+*{
+    font-family: sans-serif;
+    line-height: 1.4rem;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+:root{
+    --mainColor:mediumslateblue;
+    --subColor:#ebd091;
+}
+body{
+    height: 200vh;
+    border: 0;
+    margin: 0;
+    /* background-color: var(--subColor); */
+    background: url(lofi_generator.png) no-repeat center center/cover;
+    backdrop-filter: blur(70px) brightness(70%);
+
+}
+
+.body-box{
+    overflow: hidden;
+    height: 100%;
+    background: var(--subColor);
+    /* background-color: white; */
+    /* background-color: mediumslateblue; */
+    border: 1px solid black;
+    border-radius: 2px;
+    margin: auto 10% auto 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hd-box{
+    margin: 0;
+    /* padding: 1rem; */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.700);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* flex-direction: column; */
+    border-radius: 2px;
+    background:white;
+    background: var(--subColor);
+}
+
+nav{
+    background: rgb(225, 225, 225);
+    /* background: var(--subColor); */
+    /* background: darkslateblue; */
+    height: 50px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.sticky:hover{
+    background: rgba(207, 207, 207, 1);
+    /* background-color:mediumslateblue ; */
+    /* background: darkslateblue; */
+}
+.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.hd-bg-box{
+    background: url(lofi_generator.png) no-repeat center center/cover;
+    height: 30%;
+    width: 100%;
+}
+
+.st-box{
+    padding: 1.5rem;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.700);
+    height: 40vh;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 2px;
+    margin: 20% 0 0 0;
+    /* background-color: slateblue; */
+    /* background-color: var(--subColor); */
+    background-color: white;
+
+}
+
+footer{
+    background:#a08548;
+    height: 30%;
+}
+
+.title{
+    font-size: 3rem;
+    font-weight: bolder;
+    border-radius:2px;
+    border: 0;
+    margin: 0;
+}
+
+.icon{
+    font-size: 2rem;
+    /* padding: rem; */
+    margin-right: 10px;
+    border: 0;
+}
